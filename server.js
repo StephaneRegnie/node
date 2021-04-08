@@ -2,7 +2,7 @@ const http = require("http");
 
 const server = http.createServer(function(req, res) {
   console.log(`user visited ${req.url}`);
-  res.end("Hello World from Node.js server !");
+  res.end("Hello World from Node.js server !");     //  result sends by the server
 });
 
 console.log("listening on port:3000");
